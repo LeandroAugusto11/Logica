@@ -1,6 +1,6 @@
 / **
  * Calcular Valor Churrasco
-* @author  Leandro Augusto e Matheus Motta
+* @author  Leandro Augusto 
  * /
 function calcular() {
     let homem, mulher, crianca, kgCarne, valorCarne, latas, VlLata, refri, prRefri
