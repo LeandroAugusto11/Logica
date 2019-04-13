@@ -2,35 +2,44 @@
 <html lang="pt-br">
 
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Valor do Churras</title>
+    <title>Valor do Churrasco</title>
 </head>
 
 <body>
-    <h1><center>Valor do Churras</h1></center>
-    <form name="frmChurras">
-        <p>
-           <center> <input type="text" placeholder="Homens" name="txtHomens"> 
-            <input type="text" placeholder="Mulheres" name="txtMulheres"> 
-            <input type="text" placeholder="Criancas" name="txtCriancas">
-            <input type="button" value="Calcular" onclick="calcular()">
-            <input type="text" placeholder="total" name="txttotal"> 
-            <p><input type="text" placeholder="Kg da carne" name="txtKg da carne"></p>
-            <p><input type="text" placeholder="Preço $" name="txtPreço $"></p>
-            
-            <p><input type="text" placeholder="Preço da lata de cerveja" name="txtPreço da lata de cerveja"></p>
-            <p><input type="text" placeholder="Preço $" name="txtPreço $"></p>
+    <center><h1>Valor do Churrasco</h1>
+  
+    <form name="frmChurrasco"><hr>
+        
+        Homem.... <input type="text" placeholder="Homem" name="txtHomem"><br><br>
 
-            <p><input type="text" placeholder="Preço Refrigerante" name="txtPreço Refrigerante"></p>
-            <p><input type="text" placeholder="Preço $" name="txtPreço $"></p>
-            <p><input type="button" value="Calcular" onclick="calcularCirculo()"></p></center>
-	  
-        </p>
+        Mulher....<input type="text" placeholder="Mulher" name="txtMulher"><br><br>
+
+       Crianca....<input type="text" placeholder="Crianca" name="txtCrianca"><br><br>
+        
+       <p><input type="button" value="Calcular" size="7"  onclick="calcular()"> </p>
+        <p><input type="reset" value="Limpar"></p>
+
+       Carne-kg.... <input type="text" placeholder="kg" name="txtCarne"><br><br>
+
+        Preco....<input type="text" placeholder="$" name="txtPreço"><br><br>
+
+        Latas....<input type="text" placeholder="latas" name="txtLitros"><br><br>
+
+        Preco....<input type="text" placeholder="$" name="txtLatas"><br><br>
+
+        Refri....<input type="text" placeholder="Refri" name="txtRefri"><br><br>
+
+        Preco....<input type="text" placeholder="$" name="vlRefri"><br><br><hr></center>
     </form>
-    <script src="calcularvalor.js"></script>
+    <script src="Churrasco.js"></script>
+    
 </body>
-<hr>
+
+
+
 
 </html>
