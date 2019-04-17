@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Calcular IMC</title>
+</head>
+
+<body bgcolor="999999">
+    <h1>Calcular IMC</h1>
+    
+    <form name="frmImc">
+        <img src="IMC.jpg" alt="some text" width=500 height=300>
+        <p><input type="text" placeholder="Peso" name="txtpeso"></p>
+        <p><input type="text" placeholder="Altura" name="txtaltura"></p>
+        <p>
+            <input type="button" value="Calcular" onclick="calcularImc()">
+            <input type="reset" value="Limpar">
+        </p>
+        <p><input type="text" placeholder="IMC" name="txtIMC" disabled></p>
+        <p><input type="text" placeholder="Status" name="txtStatus"></p>
+        
+    </form>
+   
+    <script src="imc.js"></script>
+</body>
+<footer><small>@LeandroAugusto</small></footer>
+
+</html>
